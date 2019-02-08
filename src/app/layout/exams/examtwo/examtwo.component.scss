@@ -1,0 +1,137 @@
+#myDIV{
+    width: auto;
+    height: 160px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    font:  small-caps bold 36px Georgia, sans-serif; /* fallback for older browsers */
+    font: ultra-condensed  small-caps bold 36px Georgia, sans-serif;
+    background: #1b1d1d;
+    -webkit-animation: mymove 6s infinite; 
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {background-color:#383838;}
+}
+div{
+    margin-top:5px;
+
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.myrow{
+    padding:0px 35px 0px 35px;
+}
+.con{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.card{
+
+    padding: 9px 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2);
+    max-width: 300px;
+    max-height: 510px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.dropbtn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #001;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 25px;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: white;
+    min-width: 100px;
+    border-radius:25px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    border-radius:25px;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+img{
+    position:none;
+    width:280px;
+    height:280px;
+    border-radius:26px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}

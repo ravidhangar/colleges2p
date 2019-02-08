@@ -1,0 +1,126 @@
+#myDIV{
+    width: auto;
+    height: 160px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    font:  small-caps bold 36px Georgia, sans-serif; /* fallback for older browsers */
+    font: ultra-condensed  small-caps bold 36px Georgia, sans-serif;
+    background: #1b1d1d;
+    -webkit-animation: mymove 6s infinite; 
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {background-color: #383838;}
+}
+div{
+    margin-top:5px;
+}
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+}
+
+.myrow{
+    padding:0px 35px 0px 35px;
+}
+.con1
+{
+    
+  padding: 0px 0px 150px 0px;
+  display: flex;
+
+background-color: white;
+border-radius:25px;
+    
+}
+.card{
+
+    width:auto;
+    padding: 9px 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2);
+    max-width: auto;
+    max-height: 510px;
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+.card1{
+    width:auto;
+    padding: 9px 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2);
+    max-width: auto;
+    max-height: 510px;
+    margin: 10px 5px 5px 5px;
+   
+    border-radius: 29px;
+}
+
+.dropbtn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #001;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 25px;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: relative;
+    background-color: white;
+    min-width: 100px;
+    border-radius:25px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    
+    color: black;
+    border-radius:25px;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+img{
+    position:none;
+    width: 50px;
+    height:50px;
+    border-radius:26px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}

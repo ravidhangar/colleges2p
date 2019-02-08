@@ -1,0 +1,41 @@
+colleges:
+    0:
+          address:
+                city: "nagpur"
+                line1: "sadar"
+                line2: "mangalwari"
+                pincode: 123123123
+                state: "maharashtra"
+
+
+          course:
+                branchname: "CSE"
+                coursename: "B.Tech"
+                fieldname: "Medical"
+                program: "Undergraduation"
+
+          duration: 4
+          fees: 80000
+          key: "-LL-cYyEQ9U61UjU-cBd"
+          name: "anjuman"
+          phone: 234234
+          type: "Government"
+
+    1:
+          address:
+                city: "nagpur"
+                line1: "hingna"
+                line2: "near airport"
+                pincode: 440002
+                state: "maharashtra"
+          course:
+                branchname: "EXTC"
+                coursename: "B.Tech"
+                fieldname: ""
+                program: ""
+                duration: 4
+          fees: 100000
+          key: "-LM25QweBNbcinaoGBeC"
+          name: "yashwantrao"
+          phone: 212123123
+          type: "Autonomous"

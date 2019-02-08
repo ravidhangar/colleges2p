@@ -1,0 +1,33 @@
+<div [@routerTransition]>
+
+<div id="myDIV" ><p>Search College!</p>
+   	<input class="form-control mr-sm-3" type="text" placeholder="Search College.." style="margin-left: 500px">
+</div>
+
+<div class="container-fluid">
+<div class="row">
+	<div *ngFor="let x of obj">
+
+	<div class="col-xl-* col-lg-* card"  style="width: 100%">
+
+		<img src="{{x.cimg}}">
+		<p>{{x.cname}}</p>
+
+	<div class="dropdown">
+	<button class="dropbtn">Under Graduate</button>
+    <div class="dropdown-content" *ngFor="let y of x.ug">
+    <a routerLink="/collegeinfo">{{y.cor}}</a>
+  	</div>
+  	
+	</div>
+	<div class="dropdown">
+  <button class="dropbtn">Post Graduate</button>
+    <div class="dropdown-content" *ngFor="let z of x.pg">
+    <a routerLink="/collegeinfo">{{z.cor}}</a>
+  	</div>
+  	</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>

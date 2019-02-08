@@ -1,0 +1,62 @@
+#myDIV{
+    width: auto;
+    height: 160px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    font:  small-caps bold 36px Georgia, sans-serif; /* fallback for older browsers */
+    font: ultra-condensed  small-caps bold 36px Georgia, sans-serif;
+    background: #1b1d1d;
+    -webkit-animation: mymove 6s infinite; 
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {background-color:#383838;}
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+}
+.my-header h6 { 
+  display: inline;
+}
+
+
+
+.con1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:25px;
+    margin: auto;
+    background-color:#fdfce3;
+    padding:auto;
+}
+.con2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:25px;
+    margin: auto;
+    background-color:white;
+    padding: 15px 10px 10px 20px;
+    margin-top:10px;
+
+}
+
+.headcon{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:25px;
+    margin: auto;
+    background-color:white;
+    padding: 10px 10px 10px 15px;
+    margin-top:10px;
+
+}

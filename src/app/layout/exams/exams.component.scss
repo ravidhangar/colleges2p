@@ -1,0 +1,73 @@
+#myDIV{
+    width: auto;
+    height: 160px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    font:  small-caps bold 36px Georgia, sans-serif; /* fallback for older browsers */
+    font: ultra-condensed  small-caps bold 36px Georgia, sans-serif;
+    background: #1b1d1d;
+    -webkit-animation: mymove 6s infinite; 
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {background-color:#383838;}
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+
+#card{
+
+    position:relative;
+    background-color: white;
+    padding: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2.2);
+    width: auto;
+    height:auto;
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+div{
+    margin-top:5px;
+
+}
+
+.mycon{
+z-index: -1;
+display:flex;
+flex-flow: row wrap;
+justify-content:  space-around;
+border-radius:25px;
+background-color: #f4f5f5;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+    font: normal small-caps normal 15px/1.3 Georgia
+}
+
+img{
+    padding:10px 5px 5px 5px;
+    width:350px;
+    height:230px;
+    border-radius:25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

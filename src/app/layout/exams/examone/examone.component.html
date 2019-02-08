@@ -1,0 +1,32 @@
+<div [@routerTransition]>
+<div id="myDIV" ><p>Search College!</p>
+   	<input class="form-control mr-sm-3" type="text" placeholder="Search College.." style="margin-left: 500px">
+</div>
+
+<div class="container-fluid con">
+	
+	<div *ngFor="let x of obj">
+	<div *ngFor="let y of x.school">
+
+	
+	
+	<div class=" card">
+		<img src="../assets/exams/e1.png">
+		<p >{{y.course}}</p>
+
+	<div class="dropdown">
+	
+    <button class="dropbtn"> + More </button>
+
+    <div class="dropdown-content" *ngFor="let z of y.exams">
+
+    <a routerLink="/exam-profile">{{z.ename}}</a>
+  	</div>
+  	</div>
+	</div>
+	</div>
+	</div>
+
+</div>
+</div>
+

@@ -1,0 +1,65 @@
+<div [@routerTransition]>
+	<div id="myDIV" ><p>Listing Colleges!</p>
+   	<input class="form-control mr-sm-3" type="text" placeholder="Search College.." style="margin-left: 500px">
+</div>
+
+<div *ngFor="let x of collegesData">
+<div class="card1">
+
+<div class="media">
+<div class="media-left pd-right5">
+<a>
+<img src="../assets/images/logo.png">
+</a>
+</div>
+
+<div class="media-body">
+<h2 class="media-heading mg-0">
+<a routerLink="/profile">{{x.name}}</a>
+<br>
+<hr class="style1">
+<br>
+</h2>
+<small class="">{{x.address.city}}</small>
+</div>
+
+</div>
+
+
+<div class="col-xs-9">
+<p class="course_name">
+<a class="color-333">{{x.course.coursename}}</a>
+</p>
+<dl class="dl-horizontal mg-0">
+<dt>Duration:&nbsp;</dt>
+<dd>{{x.duration}}</dd>
+<dt>Total Fees:&nbsp;</dt>
+<dd> {{x.fees}}</dd>
+<dt>Institute Type:&nbsp;</dt>
+<dd>{{x.type}}</dd>
+<dt>Reviews:&nbsp;</dt>
+<!-- <a>
+<dd>
+<i class="fa fa-star" style="color:#fa9d2e;" aria-hidden="true"></i>
+<i class="fa fa-star" style="color:#fa9d2e;" aria-hidden="true"></i>
+<i class="fa fa-star" style="color:#fa9d2e;" aria-hidden="true"></i>
+<i class="fa fa-star" style="color:#fa9d2e;" aria-hidden="true"></i>
+<i class="fa fa-star" style="color:#fa9d2e;" aria-hidden="true"></i>
+(6 Reviews) </dd>
+</a> -->
+</dl>
+
+</div>
+
+<div class="row call_action_div">
+<div class="col-md-12 col-xs-12" style="padding:0">
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
