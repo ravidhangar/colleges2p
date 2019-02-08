@@ -13,12 +13,12 @@ import { AuthGuard } from './shared';
 import * as firebase from 'firebase';
 
 var config = {
-    apiKey: "AIzaSyBFU-Wn9tNhyRGQtTJOiB1F7O0dlqE8enE",
-    authDomain: "college-29a28.firebaseapp.com",
-    databaseURL: "https://college-29a28.firebaseio.com",
-    projectId: "college-29a28",
-    storageBucket: "college-29a28.appspot.com",
-    messagingSenderId: "402666727381"
+    apiKey: "AIzaSyD5zJEcjI5XIALl7TiFRTjCf0TpWSVrmfE",
+    authDomain: "project-dda94.firebaseapp.com",
+    databaseURL: "https://project-dda94.firebaseio.com",
+    projectId: "project-dda94",
+    storageBucket: "project-dda94.appspot.com",
+    messagingSenderId: "872922735098"
   };
   firebase.initializeApp(config);
 
