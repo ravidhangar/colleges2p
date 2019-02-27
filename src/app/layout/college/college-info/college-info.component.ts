@@ -17,11 +17,12 @@ collegesData:Array<any> = [];
    }
   ngOnInit() {
     var ref = firebase.database().ref('colleges/');
+    //console.log(ref);
   ref.on('value', resp => {
   var mydata = snapshotToArray(resp);
-  console.log(mydata);
+  //console.log(mydata);
   this.collegesData = mydata;
-  });
+});
   }
 
 }

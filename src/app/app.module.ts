@@ -22,6 +22,8 @@ var config = {
   };
   firebase.initializeApp(config);
 
+
+
 // AoT requires an exported function for factories
 export const createTranslateLoader = (http: HttpClient) => {
     /* for development
