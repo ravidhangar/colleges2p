@@ -15,5 +15,7 @@ export class LoginComponent implements OnInit {
 
     onLoggedin() {
         localStorage.setItem('isLoggedin', 'true');
+        // TODO: Add login code here
+
     }
 }
