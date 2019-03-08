@@ -22,7 +22,7 @@ const routes: Routes = [
             { path: 'exam-12', loadChildren: './exams/examone/examone.module#ExamoneModule' },
             { path: 'exam-ug', loadChildren: './exams/examtwo/examtwo.module#ExamtwoModule' },
              { path: 'profile', loadChildren: './college/colprofile/colprofile.module#ColprofileModule' }
-             ,
+             ,{ path: 'login', loadChildren: '../login/login.module#LoginModule' },
              { path: 'exam-profile', loadChildren: './exams/eprofile/eprofile.module#EprofileModule' }
         ]
     }
